@@ -1,0 +1,11 @@
+Customization
+
+Parameters
+num_topics: Number of topics to identify.
+num_sentences: Number of sentences in the summary.
+
+You can modify these parameters during the MultiDocSummarizer initialization:
+
+summarizer = MultiDocSummarizer(num_topics=3, num_sentences=2)
+Adding New Documents
+Simply replace the documents list with new text inputs.
