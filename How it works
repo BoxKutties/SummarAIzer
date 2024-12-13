@@ -1,0 +1,37 @@
+How the Software Works
+
+1. Preprocessing
+The preprocess method:
+
+1.Tokenizes the text into sentences and words.
+2.Converts words to lowercase.
+3.Removes stopwords and non-alphanumeric tokens.
+4.Lemmatizes words to their base forms.
+
+This ensures clean and consistent text for summarization and topic modeling.
+
+2. Summarization
+The extractive_summarization method:
+
+1.Uses TF-IDF Vectorizer to calculate term importance.
+2.Applies Latent Semantic Analysis (LSA) to reduce dimensionality and identify the most significant sentences.
+Selects the top num_sentences based on LSA scores to generate the summary.
+
+3. Topic Modeling
+The topic_modeling method:
+
+1.Uses Latent Dirichlet Allocation (LDA) to identify num_topics from the tokenized documents.
+2.Converts the processed documents into a bag-of-words representation.
+3.Outputs the most significant topics.
+
+4. Integration
+The integrate_components method:
+
+1.Combines the summary and topic modeling.
+2.Aligns the summary with the topics by mapping the summary's words to topics.
+
+5. Evaluation
+The evaluate method:
+
+1.Uses the ROUGE scorer to compare the generated summary with the reference summary.
+2.Outputs precision, recall, and F1 scores for ROUGE-1, ROUGE-2, and ROUGE-L.
