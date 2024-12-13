@@ -1,0 +1,17 @@
+Generated Summary:
+SpaceX, Blue Origin, and other corporations are making space travel more accessible and cost-effective. Space exploration has entered a new era with private companies playing a significant role. Meanwhile, researchers continue to develop advanced AI systems capable of understanding natural language, making predictions, and even creating art.
+
+Identified Topics:
+(0, '0.021*"space" + 0.021*"plan" + 0.021*"exploration" + 0.021*"lunar" + 0.021*"significant" + 0.021*"longer" + 0.021*"entered" + 0.021*"era" + 0.021*"science" + 0.021*"company"')
+(1, '0.017*"ai" + 0.017*"making" + 0.017*"rise" + 0.017*"creating" + 0.017*"capable" + 0.017*"system" + 0.017*"art" + 0.017*"develop" + 0.017*"language" + 0.017*"weather"')
+(2, '0.028*"could" + 0.022*"space" + 0.022*"change" + 0.022*"climate" + 0.022*"exploration" + 0.022*"redirected" + 0.022*"like" + 0.022*"spent" + 0.022*"argue" + 0.022*"resource"')
+(3, '0.025*"practice" + 0.025*"ai" + 0.013*"importance" + 0.013*"emphasize" + 0.013*"preserving" + 0.013*"sustainable" + 0.013*"ethical" + 0.013*"natural" + 0.013*"reducing" + 0.013*"habitat"')
+(4, '0.024*"implement" + 0.024*"energy" + 0.024*"renewable" + 0.024*"policy" + 0.024*"source" + 0.024*"pressure" + 0.024*"worldwide" + 0.024*"transition" + 0.024*"making" + 0.024*"environmental"')
+
+Summary Topics:
+[(0, 0.3528799), (1, 0.43548837), (4, 0.19484049)]
+
+ROUGE Scores:
+rouge1: Score(precision=0.22916666666666666, recall=0.1864406779661017, fmeasure=0.205607476635514)
+rouge2: Score(precision=0.0425531914893617, recall=0.034482758620689655, fmeasure=0.0380952380952381)
+rougeL: Score(precision=0.125, recall=0.1016949152542373, fmeasure=0.11214953271028037)
