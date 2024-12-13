@@ -1,0 +1,47 @@
+How to Use
+
+1. Install Dependencies
+Ensure you have Python installed. Install the required Python libraries using:
+
+pip install numpy pandas scikit-learn gensim nltk rouge-score
+
+2. Download Required NLTK Resources
+The software uses NLTK for tokenization, stopword removal, and lemmatization. Download the necessary resources before running the program:
+
+import nltk
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('wordnet')
+
+3. Input Preparation
+Prepare the following inputs:
+
+Documents: A list of strings where each string is a document.
+Reference Summary: A concise string summarizing the input documents, used for evaluation.
+
+Example:
+documents = [
+    "Document 1 text here.",
+    "Document 2 text here.",
+    "Document 3 text here."
+]
+
+reference_summary = "A concise summary of the documents."
+
+4. Run the Software
+Run the main Python script (project.py). 
+
+It Will:
+
+1. Preprocesses the documents.
+2. Generates an extractive summary.
+3. Performs topic modeling.
+4. Aligns the summary with the identified topics.
+5. Evaluates the summary using ROUGE metrics.
+
+Output:
+
+1. The generated summary.
+2. The identified topics.
+3. Topic alignment with the summary.
+4. ROUGE evaluation scores.
